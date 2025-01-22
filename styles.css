@@ -1,0 +1,97 @@
+* {
+    font-family: Raleway;
+}
+
+h2 {
+    font-size: 64px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+figure {
+    border: none;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 50%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+figcaption {
+    background-color: gainsboro;
+    color: #111;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+}
+
+.background-web {
+    background-color: lightblue;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.projects {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: lightpink;
+  position: fixed;
+  top: 0;
+  width: 100%;
+    font-size: 24px;
+font-weight: bold;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+a {
+    font-size: 24px;
+font-weight: bold;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightcyan;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: lightgreen;
+  }
+}
